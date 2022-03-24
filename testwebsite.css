@@ -1,0 +1,225 @@
+*{
+	box-sizing: border-box;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+	font-size: 15px;
+}
+
+body{
+	background:#fff;
+}
+
+
+/* multiple 
+line 
+comment */ 
+
+/* header css */ 
+header {
+	background:#222;
+	color: #fff;
+	padding: 20px 30px;
+	position: fixed;
+	width: 100%;
+}
+
+/* logo */ 
+#logo {
+	display: inline-block;
+	color: #fff;
+	text-decoration: none;
+	width: 50%;
+}
+
+/* navbar */
+nav {
+	width: 50%;
+	display: inline-block;
+	text-align: right;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+}
+
+nav ul li {
+	display: inline-block;
+}
+
+
+nav ul li a{
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	padding: 10px 15px;
+	border-radius: 5px;
+}
+
+nav ul li a:hover{
+	background:#444;
+}
+
+
+/* main content */ 
+.hero {
+	min-height: 500px;
+	text-align: center;
+	background-color: #001;
+}
+
+.hero-content{
+	color: #fff;
+	padding-top: 120px;
+}
+
+.hero-content h1 {
+	font-size: 100px;
+	margin: 0;
+}
+
+.hero-content p {
+	font-size: 50px;
+}
+
+.hero-content a {
+	display: inline-block;
+	color: #fff;
+	border:3px solid #fff;
+	border-radius: 5px;
+	padding: 15px 30px;
+	margin-right: 20px;
+	text-decoration: none;
+	font-size: 30px
+}
+
+.hero-content a:hover {
+	color: #001;
+	background-color: #fff;
+}
+
+
+/* site section */
+.site-section {
+	padding-bottom: 50px;
+	padding-top: 50px
+}
+
+.site-section-secondary {
+	background:#EFEFEF;
+}
+
+.site-section-inside {
+	width: 80%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.section-header {
+	text-align: center;
+	margin-bottom: 30px
+}
+
+.section-header h2 {
+	font-size: 30px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-weight: 300;
+	color: #777;
+}
+
+
+/*feature boxes */
+.feature-box {
+	display: inline-block;
+	width: 33%;
+	padding: 20px 30px;
+}
+
+.feature-box h5 {
+	font-weight: bold;
+	font-size: 20px;
+	color: #999;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin:0;
+}
+
+/* testimonial boxes */ 
+.testimonial-box {
+	display: inline-block;
+	width: 33%;
+	padding: 20px 30px
+}
+
+.testimonial-content {
+	background:#FFF;
+	padding: 15px;
+	border-radius: 5px;
+	margin-bottom: 15px
+}
+
+.testimonial-author img {
+	float: left;
+	width: 80px;
+	border-radius: 50%;
+	margin-right: 15px;
+	vertical-align: middle;
+}
+
+.testimonial-author h5 {
+	font-size: 20px;
+	margin: 0;
+	padding-top: 15px;
+}
+
+.testimonial-author span {
+	font-size: 15px
+}
+
+/* Hire me */
+
+.hire{
+	text-align: center;
+	margin-bottom: 30px
+}
+.hire h1 {
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: #777;
+}
+.hire button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    width: 20%;
+    border-radius: 20px;
+}
+
+.hire button:hover {
+    background-color: #001;
+}
+
+/* footer */ 
+footer {
+	background: #222;
+	color: #777;
+	padding: 50px;
+	text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 15px;
+}
+footer a:hover {
+    color: #88f;
+    
+}
